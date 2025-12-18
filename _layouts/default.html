@@ -582,6 +582,7 @@
     
     <nav>
         <div class="container">
+            <button class="nav-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
             <ul>
                 <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
                 <li><a href="{{ '/concepts/what-is-ddad' | relative_url }}" {% if page.url contains '/concepts/' %}class="active"{% endif %}>Concepts</a></li>
@@ -593,6 +594,30 @@
             </ul>
         </div>
     </nav>
+    
+    {% unless page.url == '/' %}
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <span>/</span>
+            {% if page.url contains '/concepts/' %}
+                <a href="{{ '/concepts/what-is-ddad' | relative_url }}">Concepts</a>
+            {% elsif page.url contains '/artifacts/' %}
+                <a href="{{ '/artifacts/artifact-model' | relative_url }}">Artifacts</a>
+            {% elsif page.url contains '/execution/' %}
+                <a href="{{ '/execution/execution-flow' | relative_url }}">Execution</a>
+            {% elsif page.url contains '/examples/' %}
+                <a href="{{ '/examples/backend-example' | relative_url }}">Examples</a>
+            {% elsif page.url contains '/templates/' %}
+                <a href="{{ '/templates/AGENTS' | relative_url }}">Templates</a>
+            {% elsif page.url contains '/adoption/' %}
+                <a href="{{ '/adoption/getting-started' | relative_url }}">Adoption</a>
+            {% endif %}
+            <span>/</span>
+            <span class="current">{{ page.title }}</span>
+        </div>
+    </div>
+    {% endunless %}
     
     <div class="main-wrapper">
         {% if page.url != '/' %}
