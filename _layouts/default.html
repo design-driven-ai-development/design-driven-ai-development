@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description | default: site.description }}">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -39,220 +37,9 @@
             padding: 0 24px;
         }
         
-        /* Header */
-        header {
-            background: var(--bg);
-            border-bottom: 1px solid var(--border);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: var(--shadow);
-        }
+        /* Removed old header/nav/breadcrumb styles - now using Bootstrap components */
         
-        header .container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .logo-section {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            text-decoration: none;
-            color: var(--primary);
-        }
-        
-        .logo-section:hover {
-            text-decoration: none;
-        }
-        
-        header .logo {
-            height: 32px;
-            width: auto;
-            display: block;
-            object-fit: contain;
-            flex-shrink: 0;
-        }
-        
-        @media (max-width: 768px) {
-            header .logo {
-                height: 28px;
-            }
-            
-            header h1 {
-                font-size: 1.25rem;
-            }
-        }
-        
-        header h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin: 0;
-            color: var(--primary);
-        }
-        
-        /* Navigation */
-        nav {
-            background: var(--bg-section);
-            border-bottom: 1px solid var(--border);
-        }
-        
-        nav .container {
-            display: flex;
-            gap: 0;
-            position: relative;
-        }
-        
-        .nav-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0.5rem;
-            color: var(--text);
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 0;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-        }
-        
-        nav li {
-            margin: 0;
-        }
-        
-        nav a {
-            display: block;
-            padding: 1rem 1.5rem;
-            color: var(--text);
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.95rem;
-            border-bottom: 3px solid transparent;
-            transition: all 0.2s;
-        }
-        
-        nav a:hover {
-            background: var(--bg);
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
-        
-        nav a.active {
-            background: var(--bg);
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
-        
-        /* Breadcrumbs */
-        .breadcrumbs {
-            background: var(--bg-light);
-            padding: 0.75rem 0;
-            border-bottom: 1px solid var(--border);
-            font-size: 0.875rem;
-        }
-        
-        .breadcrumbs .container {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .breadcrumbs a {
-            color: var(--text-light);
-            text-decoration: none;
-        }
-        
-        .breadcrumbs a:hover {
-            color: var(--accent);
-            text-decoration: underline;
-        }
-        
-        .breadcrumbs span {
-            color: var(--text-light);
-        }
-        
-        .breadcrumbs .current {
-            color: var(--text);
-            font-weight: 500;
-        }
-        
-        /* Main Content */
-        .main-wrapper {
-            display: flex;
-            min-height: calc(100vh - 200px);
-        }
-        
-        .sidebar {
-            width: 260px;
-            background: var(--bg-light);
-            border-right: 1px solid var(--border);
-            padding: 2rem 0;
-            position: sticky;
-            top: 80px;
-            height: calc(100vh - 80px);
-            overflow-y: auto;
-        }
-        
-        .sidebar h3 {
-            font-size: 0.875rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--text-light);
-            padding: 0 1.5rem;
-            margin-bottom: 0.75rem;
-        }
-        
-        .sidebar ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        
-        .sidebar li {
-            margin: 0;
-        }
-        
-        .sidebar a {
-            display: block;
-            padding: 0.5rem 1.5rem;
-            color: var(--text);
-            text-decoration: none;
-            font-size: 0.9rem;
-            border-left: 3px solid transparent;
-            transition: all 0.2s;
-        }
-        
-        .sidebar a:hover {
-            background: var(--bg);
-            color: var(--accent);
-            border-left-color: var(--accent);
-        }
-        
-        .sidebar a.active {
-            background: var(--bg);
-            color: var(--accent);
-            border-left-color: var(--accent);
-            font-weight: 500;
-        }
-        
-        main {
-            flex: 1;
-            padding: 3rem 0;
-            max-width: 900px;
-        }
-        
-        main .content {
-            padding: 0 3rem;
-        }
+        /* Removed old sidebar/main-wrapper styles - now using Bootstrap grid */
         
         /* Typography */
         h1 {
@@ -459,73 +246,14 @@
             padding-left: 1.5rem;
         }
         
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .sidebar {
-                display: none;
-            }
-            
-            main .content {
-                padding: 0 2rem;
-            }
-        }
-        
+        /* Responsive styles - Bootstrap handles most responsive behavior */
         @media (max-width: 768px) {
-            header .container {
-                flex-direction: row;
-                align-items: center;
-            }
-            
-            .nav-toggle {
-                display: block;
-                margin-left: auto;
-            }
-            
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--bg-section);
-                border-top: 1px solid var(--border);
-                box-shadow: var(--shadow-lg);
-            }
-            
-            nav ul.open {
-                display: flex;
-            }
-            
-            nav a {
-                padding: 0.75rem 1.5rem;
-                font-size: 0.875rem;
-                border-bottom: 1px solid var(--border);
-                border-left: none;
-            }
-            
-            nav a.active {
-                border-left: 3px solid var(--accent);
-            }
-            
-            main {
-                padding: 2rem 0;
-            }
-            
-            main .content {
-                padding: 0 1.5rem;
-            }
-            
             h1 {
                 font-size: 2rem;
             }
             
             h2 {
                 font-size: 1.5rem;
-            }
-            
-            .breadcrumbs {
-                font-size: 0.8rem;
             }
         }
         
@@ -598,6 +326,8 @@
             color: var(--accent);
         }
     </style>
+    <!-- Bootstrap CSS - Load after custom styles so Bootstrap takes precedence -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom">
