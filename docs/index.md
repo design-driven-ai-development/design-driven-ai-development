@@ -7,22 +7,6 @@ title: Home
 
 A governance-first methodology for AI-assisted software development.
 
-## Start Here
-
-1. Read the [DDAD Manifesto](/manifesto.md)
-2. Understand the [DDAD Overview](/DDAD.md)
-3. Explore the core artifacts under **Artifacts**
-
-
-<div class="hero bg-light py-5 mb-4 border-bottom">
-    <div class="container">
-        <h1 class="display-4 fw-bold mb-3">Design-Driven AI Development</h1>
-        <p class="lead mb-4">Where design artifacts, not prompts, govern execution</p>
-        <a href="{{ '/adoption/getting-started' | relative_url }}" class="btn btn-primary btn-lg me-2">Get Started</a>
-        <a href="{{ '/concepts/what-is-ddad' | relative_url }}" class="btn btn-outline-primary btn-lg">Learn More</a>
-    </div>
-</div>
-
 ## Overview
 
 Design-Driven AI Development (DDAD) is a methodology for using AI in software development
