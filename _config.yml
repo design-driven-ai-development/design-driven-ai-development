@@ -3,16 +3,15 @@ title: Design-Driven AI Development (DDAD)
 description: Where design artifacts, not prompts, govern execution
 author: Santosh Manapragada
 
-# GitHub Pages settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+theme: just-the-docs
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+url: https://design-driven-ai-development.github.io
+baseurl: /design-driven-ai-development
+
+just_the_docs:
+  search_enabled: true
+  navigation_depth: 3
+  color_scheme: light
 
 # Exclude from processing
 exclude:
