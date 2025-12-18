@@ -1,46 +1,14 @@
-# Jekyll configuration for GitHub Pages
-title: Design-Driven AI Development (DDAD)
-description: Where design artifacts, not prompts, govern execution
-author: Santosh Manapragada
+title: Design-Driven AI Development
+description: Design governs AI execution
 
-# GitHub Pages settings
-baseurl: "/design-driven-ai-development"
-url: "https://design-driven-ai-development.github.io"
+theme: just-the-docs
 
-# Completely disable themes to use custom layout
-theme: null
-remote_theme: null
+url: https://design-driven-ai-development.github.io
+baseurl: /design-driven-ai-development
 
-# GitHub Pages plugins (required for GitHub Pages)
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-# Force use of local layouts and disable safe mode
-safe: false
-
-# Explicitly set markdown processor
 markdown: kramdown
-highlighter: rouge
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - LICENSE
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-  - scope:
-      path: "docs"
-      type: pages
-    values:
-      layout: default
+just_the_docs:
+  search_enabled: true
+  navigation_depth: 3
+  color_scheme: light
