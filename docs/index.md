@@ -7,6 +7,8 @@ title: Design-Driven AI Development (DDAD)
     <div class="container">
         <h1>Design-Driven AI Development</h1>
         <p>Where design artifacts, not prompts, govern execution</p>
+        <a href="{{ '/adoption/getting-started' | relative_url }}" class="cta-button">Get Started</a>
+        <a href="{{ '/concepts/what-is-ddad' | relative_url }}" class="cta-button secondary">Learn More</a>
     </div>
 </div>
 
