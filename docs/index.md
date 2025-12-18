@@ -3,9 +3,12 @@ layout: default
 title: Design-Driven AI Development (DDAD)
 ---
 
-# Design-Driven AI Development (DDAD)
-
-![DDAD Logo]({{ '/images/DDAD.png' | relative_url }})
+<div class="hero">
+    <div class="container">
+        <h1>Design-Driven AI Development</h1>
+        <p>Where design artifacts, not prompts, govern execution</p>
+    </div>
+</div>
 
 ## Overview
 
@@ -170,34 +173,78 @@ Only design can define behavior.
 
 ---
 
-## Quick Navigation
+## Core Concepts
 
-### Core Concepts
-- [What is DDAD?]({{ '/concepts/what-is-ddad' | relative_url }})
-- [The Core Problem]({{ '/concepts/the-core-problem' | relative_url }})
-- [DDAD vs Prompt-Driven]({{ '/concepts/ddad-vs-prompt-driven' | relative_url }})
-- [Code Review Position]({{ '/concepts/code-review-position' | relative_url }})
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/concepts/what-is-ddad' | relative_url }}">What is DDAD?</a></h3>
+    <p style="margin-bottom: 0;">Learn about Design-Driven AI Development and how it differs from traditional approaches.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/concepts/the-core-problem' | relative_url }}">The Core Problem</a></h3>
+    <p style="margin-bottom: 0;">Understand the problems DDAD solves and why design artifacts matter.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/concepts/ddad-vs-prompt-driven' | relative_url }}">DDAD vs Prompt-Driven</a></h3>
+    <p style="margin-bottom: 0;">Compare design-driven and prompt-driven approaches to AI development.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/concepts/code-review-position' | relative_url }}">Code Review Position</a></h3>
+    <p style="margin-bottom: 0;">Learn why DDAD doesn't use AI code review and how verification works.</p>
+  </div>
+</div>
 
-### Artifacts
-- [AGENTS.md]({{ '/artifacts/agents-md' | relative_url }})
-- [TODO.md]({{ '/artifacts/todo-md' | relative_url }})
-- [LLD Markdown]({{ '/artifacts/lld-markdown' | relative_url }})
-- [Artifact Model]({{ '/artifacts/artifact-model' | relative_url }})
+## Artifacts
 
-### Execution
-- [Execution Flow]({{ '/execution/execution-flow' | relative_url }})
-- [Human Responsibilities]({{ '/execution/human-responsibilities' | relative_url }})
-- [AI Responsibilities]({{ '/execution/ai-responsibilities' | relative_url }})
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/artifacts/artifact-model' | relative_url }}">Artifact Model</a></h3>
+    <p style="margin-bottom: 0;">Understand the DDAD artifact flow: README → AGENTS → TODO → LLD → Code</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/artifacts/agents-md' | relative_url }}">AGENTS.md</a></h3>
+    <p style="margin-bottom: 0;">Governs AI behavior and defines constraints for code generation.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/artifacts/todo-md' | relative_url }}">TODO.md</a></h3>
+    <p style="margin-bottom: 0;">Authorizes specific work items and references LLD sections.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/artifacts/lld-markdown' | relative_url }}">LLD Markdown</a></h3>
+    <p style="margin-bottom: 0;">Defines exact implementation requirements and business rules.</p>
+  </div>
+</div>
 
-### Examples
-- [Backend Example]({{ '/examples/backend-example' | relative_url }})
-- [UI Example]({{ '/examples/ui-example' | relative_url }})
+## Execution
 
-### Templates
-- [AGENTS.md Template]({{ '/templates/AGENTS' | relative_url }})
-- [TODO.md Template]({{ '/templates/TODO' | relative_url }})
-- [LLD Template]({{ '/templates/lld-template' | relative_url }})
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/execution/execution-flow' | relative_url }}">Execution Flow</a></h3>
+    <p style="margin-bottom: 0;">Step-by-step process of how humans and AI collaborate in DDAD.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/execution/human-responsibilities' | relative_url }}">Human Responsibilities</a></h3>
+    <p style="margin-bottom: 0;">What humans do: design, authorize, and verify in DDAD.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/execution/ai-responsibilities' | relative_url }}">AI Responsibilities</a></h3>
+    <p style="margin-bottom: 0;">What AI does: execute design according to artifacts.</p>
+  </div>
+</div>
 
-### Adoption
-- [Getting Started]({{ '/adoption/getting-started' | relative_url }})
-- [Team Adoption]({{ '/adoption/team-adoption' | relative_url }})
+## Examples & Templates
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/examples/backend-example' | relative_url }}">Backend Example</a></h3>
+    <p style="margin-bottom: 0;">See DDAD in action with a backend service example.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/examples/ui-example' | relative_url }}">UI Example</a></h3>
+    <p style="margin-bottom: 0;">Learn how DDAD applies to UI and frontend development.</p>
+  </div>
+  <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+    <h3 style="margin-top: 0;"><a href="{{ '/templates/AGENTS' | relative_url }}">Templates</a></h3>
+    <p style="margin-bottom: 0;">Get started with ready-to-use templates for AGENTS.md, TODO.md, and LLD.</p>
+  </div>
+</div>
