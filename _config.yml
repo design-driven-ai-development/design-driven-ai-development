@@ -9,6 +9,15 @@ url: "https://design-driven-ai-development.github.io"
 
 # Disable theme to use custom layout
 theme: null
+remote_theme: null
+
+# GitHub Pages plugins (required for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Force use of local layouts
+safe: false
 
 # Exclude from processing
 exclude:
