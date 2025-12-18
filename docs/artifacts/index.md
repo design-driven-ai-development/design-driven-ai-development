@@ -5,5 +5,3 @@ has_children: true
 ---
 
 # Artifacts
-
-This section contains DDAD reference material related to **artifacts**.

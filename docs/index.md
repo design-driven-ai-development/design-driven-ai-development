@@ -1,3 +1,7 @@
+---
+title: Home
+nav_order: 1
+---
 # Design-Driven AI Development (DDAD)
 
 > **Design governs AI execution**
@@ -6,8 +10,8 @@ A governance-first methodology for AI-assisted software development.
 
 ## Start Here
 
-1. Read the [DDAD Manifesto](manifesto.md)
-2. Understand the [DDAD Overview](DDAD.md)
+1. Read the [DDAD Manifesto](/manifesto.md)
+2. Understand the [DDAD Overview](/DDAD.md)
 3. Explore the core artifacts under **Artifacts**
 
 
