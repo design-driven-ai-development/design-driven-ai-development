@@ -1,6 +1,5 @@
 ---
 title: Agents
-parent: Templates
 ---
 # AGENTS.md Template
 

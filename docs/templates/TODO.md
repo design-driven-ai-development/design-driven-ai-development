@@ -1,6 +1,5 @@
 ---
 title: Todo
-parent: Templates
 ---
 # TODO.md Template
 

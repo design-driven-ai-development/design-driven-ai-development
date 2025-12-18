@@ -1,6 +1,5 @@
 ---
 title: Lld Template
-parent: Templates
 ---
 # LLD.md (Low Level Design) Template
 
