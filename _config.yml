@@ -1,10 +1,17 @@
 title: Design-Driven AI Development
-description: Design governs AI execution
+tagline: Design governs AI execution
+description: A governance-first methodology for AI-assisted software development
 
-theme: jekyll-theme-architect
-remote_theme: pages-themes/architect@v0.2.0
+# Switch to Midnight theme (dark theme)
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+
+# Optional: Show download links (set to false if not needed)
+show_downloads: false
+
+# Optional: Add Google Analytics tracking ID if needed
+# google_analytics: UA-XXXXXXXXX-X
 
 url: https://design-driven-ai-development.github.io
 baseurl: /design-driven-ai-development

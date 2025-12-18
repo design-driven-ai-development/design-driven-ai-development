@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: default
 ---
 # Design-Driven AI Development (DDAD)
 

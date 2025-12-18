@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles for DDAD site
+// Add your custom CSS/Sass below
+
+body {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.main-content {
+  max-width: 760px;
+}
+
+blockquote {
+  border-left: 4px solid #3b3b3b;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.main-nav {
+  margin-top: 1rem;
+}
+
+.main-nav a {
+  margin-right: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.page-content {
+  max-width: 900px;
+}
+
