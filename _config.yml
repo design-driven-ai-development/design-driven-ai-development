@@ -4,8 +4,11 @@ description: Where design artifacts, not prompts, govern execution
 author: Santosh Manapragada
 
 # GitHub Pages settings
-baseurl: ""
-url: ""
+baseurl: "/design-driven-ai-development"
+url: "https://design-driven-ai-development.github.io"
+
+# Disable theme to use custom layout
+theme: null
 
 # Exclude from processing
 exclude:
@@ -20,6 +23,11 @@ exclude:
 defaults:
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: "docs"
       type: pages
     values:
       layout: default
