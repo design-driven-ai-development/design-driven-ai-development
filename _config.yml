@@ -1,0 +1,32 @@
+# Jekyll configuration for GitHub Pages
+title: Design-Driven AI Development (DDAD)
+description: Where design artifacts, not prompts, govern execution
+author: Santosh Manapragada
+
+# GitHub Pages settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
