@@ -1,7 +1,15 @@
----
-layout: default
-title: Design-Driven AI Development (DDAD)
----
+# Design-Driven AI Development (DDAD)
+
+> **Design governs AI execution**
+
+A governance-first methodology for AI-assisted software development.
+
+## Start Here
+
+1. Read the [DDAD Manifesto](manifesto.md)
+2. Understand the [DDAD Overview](DDAD.md)
+3. Explore the core artifacts under **Artifacts**
+
 
 <div class="hero bg-light py-5 mb-4 border-bottom">
     <div class="container">
