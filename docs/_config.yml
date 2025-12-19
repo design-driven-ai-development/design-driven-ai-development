@@ -14,9 +14,9 @@ exclude:
   - README.md
   - LICENSE
 
-# Optional: Configure navigation
-# nav:
-#   - title: Home
-#     url: /
+Optional: Configure navigation
+  nav:
+   - title: Home
+     url: /
 #   - title: Concepts
 #     url: /concepts/
