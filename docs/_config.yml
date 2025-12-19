@@ -1,0 +1,12 @@
+theme: architect
+
+title: Design-Driven AI Development (DDAD)
+description: Design artifacts, not prompts, govern execution.
+
+# Optional: Configure navigation
+# nav:
+#   - title: Home
+#     url: /
+#   - title: Concepts
+#     url: /concepts/
+
