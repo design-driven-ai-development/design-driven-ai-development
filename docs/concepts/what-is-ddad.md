@@ -95,14 +95,8 @@ DDAD is not:
 - ❌ A replacement for design or reviews
 - ❌ AI-based code review (design is reviewed, code is verified)
 
----
+## Related Concepts
 
-<div class="related-topics">
-    <h3>Related Topics</h3>
-    <ul>
-        <li><a href="{{ '/concepts/the-core-problem' | relative_url }}">The Core Problem</a> - Understand what DDAD solves</li>
-        <li><a href="{{ '/concepts/ddad-vs-prompt-driven' | relative_url }}">DDAD vs Prompt-Driven</a> - Compare approaches</li>
-        <li><a href="{{ '/artifacts/artifact-model' | relative_url }}">Artifact Model</a> - Learn about DDAD artifacts</li>
-        <li><a href="{{ '/execution/execution-flow' | relative_url }}">Execution Flow</a> - See how DDAD works</li>
-    </ul>
-</div>
+- [The Core Problem]({{ '/concepts/the-core-problem' | relative_url }})
+- [DDAD vs Prompt-Driven]({{ '/concepts/ddad-vs-prompt-driven' | relative_url }})
+- [Artifact Model]({{ '/artifacts/artifact-model' | relative_url }})

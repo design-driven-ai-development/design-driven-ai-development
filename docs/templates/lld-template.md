@@ -1,6 +1,3 @@
----
-title: Lld Template
----
 # LLD.md (Low Level Design) Template
 
 Use this template to create detailed low-level design specifications.

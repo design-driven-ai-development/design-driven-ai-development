@@ -1,12 +1,11 @@
 ---
-title: Home
 layout: default
+title: Design-Driven AI Development (DDAD)
 ---
+
 # Design-Driven AI Development (DDAD)
 
-> **Design governs AI execution**
-
-A governance-first methodology for AI-assisted software development.
+![DDAD Logo]({{ '/images/DDAD.png' | relative_url }})
 
 ## Overview
 
@@ -168,3 +167,37 @@ Only design can define behavior.
 
 > **Design-Driven AI Development keeps humans in control  
 > while letting AI do the work.**
+
+---
+
+## Quick Navigation
+
+### Core Concepts
+- [What is DDAD?]({{ '/concepts/what-is-ddad' | relative_url }})
+- [The Core Problem]({{ '/concepts/the-core-problem' | relative_url }})
+- [DDAD vs Prompt-Driven]({{ '/concepts/ddad-vs-prompt-driven' | relative_url }})
+- [Code Review Position]({{ '/concepts/code-review-position' | relative_url }})
+
+### Artifacts
+- [AGENTS.md]({{ '/artifacts/agents-md' | relative_url }})
+- [TODO.md]({{ '/artifacts/todo-md' | relative_url }})
+- [LLD Markdown]({{ '/artifacts/lld-markdown' | relative_url }})
+- [Artifact Model]({{ '/artifacts/artifact-model' | relative_url }})
+
+### Execution
+- [Execution Flow]({{ '/execution/execution-flow' | relative_url }})
+- [Human Responsibilities]({{ '/execution/human-responsibilities' | relative_url }})
+- [AI Responsibilities]({{ '/execution/ai-responsibilities' | relative_url }})
+
+### Examples
+- [Backend Example]({{ '/examples/backend-example' | relative_url }})
+- [UI Example]({{ '/examples/ui-example' | relative_url }})
+
+### Templates
+- [AGENTS.md Template]({{ '/templates/AGENTS' | relative_url }})
+- [TODO.md Template]({{ '/templates/TODO' | relative_url }})
+- [LLD Template]({{ '/templates/lld-template' | relative_url }})
+
+### Adoption
+- [Getting Started]({{ '/adoption/getting-started' | relative_url }})
+- [Team Adoption]({{ '/adoption/team-adoption' | relative_url }})

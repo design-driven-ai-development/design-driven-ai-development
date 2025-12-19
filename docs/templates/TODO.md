@@ -1,6 +1,3 @@
----
-title: Todo
----
 # TODO.md Template
 
 Use this template to authorize work items for AI execution.
