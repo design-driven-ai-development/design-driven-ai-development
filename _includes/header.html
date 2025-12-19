@@ -1,12 +1,16 @@
-<header class="page-header">
-  <h1 class="project-name">{{ site.title }}</h1>
-  <h2 class="project-tagline">{{ site.description }}</h2>
-  <nav class="main-nav">
-    <a href="{{ site.baseurl }}/">Home</a>
-    <a href="{{ site.baseurl }}/manifesto/">Manifesto</a>
-    <a href="{{ site.baseurl }}/DDAD/">DDAD</a>
-    <a href="{{ site.baseurl }}/artifacts/">Artifacts</a>
-    <a href="{{ site.baseurl }}/execution/">Execution</a>
-    <a href="{{ site.baseurl }}/templates/">Templates</a>
-  </nav>
+<header>
+  <div class="inner">
+    <a href="{{ '/' | relative_url }}">
+      <h1>{{ site.title }}</h1>
+    </a>
+    <h2>{{ site.description }}</h2>
+    
+    {% if site.data.navigation %}
+    <nav class="main-nav">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
+  </div>
 </header>
