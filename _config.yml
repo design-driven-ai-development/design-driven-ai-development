@@ -1,7 +1,18 @@
-theme: architect
+remote_theme: pages-themes/architect
 
 title: Design-Driven AI Development (DDAD)
 description: Design artifacts, not prompts, govern execution.
+
+# Required plugin for remote_theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
 
 # Optional: Configure navigation
 # nav:
@@ -9,4 +20,3 @@ description: Design artifacts, not prompts, govern execution.
 #     url: /
 #   - title: Concepts
 #     url: /concepts/
-

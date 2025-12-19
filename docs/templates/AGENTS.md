@@ -1,3 +1,8 @@
+---
+layout: default
+title: AGENTS.md Template
+---
+
 # AGENTS.md Template
 
 Use this template to define AI agents and their governance rules.

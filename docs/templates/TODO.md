@@ -1,3 +1,8 @@
+---
+layout: default
+title: TODO.md Template
+---
+
 # TODO.md Template
 
 Use this template to authorize work items for AI execution.
