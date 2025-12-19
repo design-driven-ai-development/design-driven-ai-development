@@ -1,4 +1,4 @@
-remote_theme: pages-themes/architect
+remote_theme: pages-themes/cayman@v0.2.0
 
 title: Design-Driven AI Development (DDAD)
 description: Design artifacts, not prompts, govern execution.
@@ -14,9 +14,4 @@ exclude:
   - README.md
   - LICENSE
 
-# Optional: Configure navigation
-nav:
-  - title: Home
-    url: /
-  # - title: Concepts
-  #   url: /concepts/
+show_downloads: false
