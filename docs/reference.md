@@ -51,6 +51,15 @@ Introduces executable specifications as a means to capture intent before impleme
 
 ---
 
+### Spec-Driven Development with Generative AI
+
+- Martin Fowler – Exploring Generative AI: Spec-Driven Development  
+  https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
+
+Demonstrates how generative AI can be used to implement software within a spec-driven workflow, reinforcing the principle that intent must precede execution.
+
+---
+
 ### Contract-First / API-First Design
 - OpenAPI Initiative  
   https://www.openapis.org/
