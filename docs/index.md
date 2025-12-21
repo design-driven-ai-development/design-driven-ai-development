@@ -176,6 +176,7 @@ Only design can define behavior.
 - [What is DDAD?]({{ '/concepts/what-is-ddad' | relative_url }})
 - [The Core Problem]({{ '/concepts/the-core-problem' | relative_url }})
 - [DDAD vs Prompt-Driven]({{ '/concepts/ddad-vs-prompt-driven' | relative_url }})
+- [DDAD vs Spec-Driven] ({{ '/concepts/ddad-vs-spec-driven-development' | relative_url }})
 - [Code Review Position]({{ '/concepts/code-review-position' | relative_url }})
 
 ### Artifacts
@@ -201,3 +202,12 @@ Only design can define behavior.
 ### Adoption
 - [Getting Started]({{ '/adoption/getting-started' | relative_url }})
 - [Team Adoption]({{ '/adoption/team-adoption' | relative_url }})
+
+---
+
+## References and Prior Art
+
+Design-Driven AI Development builds upon established software engineering practices in design-first development, specification-driven architecture, governance, and verification.
+
+For authoritative references and related concepts that inform DDAD, see:  
+[References and Related Concepts](reference.md)
