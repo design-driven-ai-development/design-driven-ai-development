@@ -205,6 +205,25 @@ Only design can define behavior.
 
 ---
 
+## Long-Term Benefits of Design-Driven AI Development
+
+  Covers real-world scenarios including: [Click Here] ({{ '/usecases/ddad-long-term-benefits.md' | relative_url }})
+  - Spring Boot upgrades (3.x → 4.x)
+  - React upgrades (17 → 18 / 19)
+  - Cross-platform expansion from React Web to Flutter Mobile
+
+## Application Modernisation
+
+Legacy modernisation is one of the hardest problems in enterprise software.  
+This section presents multiple approaches and explains why **design-led modernisation with AI** delivers superior long-term outcomes.
+
+- **[Modernisation Approaches Compared](modernisation-approaches-ddad.md)**  
+  A comparison of:
+  - One-time conversion
+  - Full rewrite
+  - Modernisation Agent with DDAD
+
+
 ## References and Prior Art
 
 Design-Driven AI Development builds upon established software engineering practices in design-first development, specification-driven architecture, governance, and verification.
