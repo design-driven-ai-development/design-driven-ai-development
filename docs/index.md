@@ -217,8 +217,8 @@ Only design can define behavior.
 Legacy modernisation is one of the hardest problems in enterprise software.  
 This section presents multiple approaches and explains why **design-led modernisation with AI** delivers superior long-term outcomes.
 
-- **[Modernisation Approaches Compared](modernisation-approaches-ddad.md)**  
-  A comparison of:
+- **Modernisation Approaches Compared**
+  A comparison of: [Click here] ({{ '/usecases/modernisation-approaches-ddad' | relative_url }})
   - One-time conversion
   - Full rewrite
   - Modernisation Agent with DDAD
